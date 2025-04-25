@@ -1,0 +1,49 @@
+/* media-query*/
+
+/* mobile 300 - 500*/
+@media (max-width: 18em) {
+  main {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .leftSection {
+    max-width: 280px;
+  }
+  body {
+    font-size: clamp(1.2rem, 2vw, 2rem);
+  }
+}
+
+@media (max-width: 32em) {
+  main {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .leftSection {
+    max-width: 280px;
+  }
+  body {
+    font-size: clamp(1.4rem, 2vw, 2.2rem);
+  }
+}
+/* small tablets 600 - 900*/
+@media (max-width: 37.5em) {
+  main {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .leftSection {
+    max-width: 280px;
+  }
+  body {
+    font-size: clamp(1.5rem, 2vw, 2.3rem);
+  }
+}
+
+/* laptop and computer > 1200 */
+@media (max-width: 75em) {
+  body {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
